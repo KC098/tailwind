@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App App-header">
-      
+
       <div class="p-3 max-w-sm mx-auto bg-white rounded-xl shadow-md  items-center space-x-4 m-1 filter drop-shadow-lg">
         <div class="">
           <img src={logo} className="items-center" alt="Logo"/>
