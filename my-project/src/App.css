@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -12,7 +13,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+p
+{
+  font-size: 12px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,9 +27,53 @@
   
   color: white;
 }
+.background
+{
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  background-color: #282c34;
+}
+.jinx-bg
+{
+  background-image: url("jinx.jpg");
+  background-position: center;
+  background-size:cover;
+  width: 50%;
+}
 
 .App-link {
   color: #61dafb;
+}
+
+.tab-list {  
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+  
+  
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  color: crimson;
+  
+}
+
+.tab-list-active {
+  background-color: rgb(146, 146, 146);
+  
+}
+
+.tab-content
+{
+  overflow: auto;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @keyframes App-logo-spin {
